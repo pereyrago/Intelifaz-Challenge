@@ -141,6 +141,7 @@ function App() {
         tel: "",
         password: "",
         email: "",
+        file: "",
         id: state.id + 1,
       });
       return alert("Usuario creado");
