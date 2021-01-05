@@ -1,0 +1,82 @@
+.createCont {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.formCont {
+  height: 100%;
+  width: 70%;
+  min-width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dcdcdc;
+  animation: unset;
+  overflow: auto;
+}
+.title {
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+}
+.form {
+  display: grid;
+  height: 100%;
+  width: 40%;
+  min-width: 400px;
+  min-height: 50px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.inputCont {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.label {
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+.boton {
+  background-color: lightblue;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: grey;
+  transition: 0.4s;
+  margin-right: 20px;
+}
+.boton:hover {
+  background-color: #4287f5;
+  color: white;
+}
+.inputBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.file {
+  border: none;
+  padding-top: 20px;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+.contBtn {
+  display: flex;
+  flex-direction: row;
+}
